@@ -1,5 +1,6 @@
 // db.js
 require('dotenv').config();
+console.log('Loaded MONGO_URL:', process.env.MONGO_URL);
 const MongoClient = require('mongodb').MongoClient;
 
 // MongoDB connection URL with authentication options

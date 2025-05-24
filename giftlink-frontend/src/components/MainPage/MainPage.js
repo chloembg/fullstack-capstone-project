@@ -10,7 +10,7 @@ function MainPage() {
         // Task 1: Write async fetch operation
         const fetchGifts = async () => {
             try {
-                url = `${urlConfig.backendUrl}/api/gifts`
+                const url = `${urlConfig.backendUrl}/api/gifts`
                 const response = await fetch(url)
                 if (!response.ok) {
                     throw new Error(`HTTP error; ${response.status}`)
