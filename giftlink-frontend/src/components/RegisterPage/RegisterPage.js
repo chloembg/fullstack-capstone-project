@@ -46,7 +46,7 @@ function RegisterPage() {
 
                             <label htmlFor="email" className="form-label"> Email</label><br/>
                             <input
-                            id="email"
+                            id="text"
                             type="email"
                             className="form-control"
                             placeholder="Enter your email"
@@ -67,7 +67,7 @@ function RegisterPage() {
                         </div>
 
                     {/* insert code here to create a button that performs the `handleRegister` function on click */}
-                    
+                        <button className="btn btn-primary w-100 mb-3" onClick={handleRegister}>Register</button>
                         <p className="mt-4 text-center">
                             Already a member? <a href="/app/login" className="text-primary">Login</a>
                         </p>
